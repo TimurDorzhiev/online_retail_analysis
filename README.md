@@ -16,3 +16,12 @@
 ## Файл данных:
 
 `data/O_Retail.csv` (данные из [Kaggle](https://www.kaggle.com/datasets/rahulashok0071/online-retail-dataset))
+
+## 📊 Streamlit Dashboard
+
+В дополнение к EDA-исследованию добавлен интерактивный дашборд.
+
+```bash
+conda activate retail-env
+streamlit run dashboard/retail_dashboard.py
+```

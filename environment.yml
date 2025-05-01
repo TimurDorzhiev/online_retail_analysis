@@ -1,0 +1,12 @@
+name: retail-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+      - streamlit
+prefix: /opt/anaconda3/envs/retail-env
